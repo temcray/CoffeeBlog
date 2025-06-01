@@ -1,0 +1,8 @@
+.primary-header {
+    background-image: url(img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
