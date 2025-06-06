@@ -1,3 +1,53 @@
+/*global*/
+body{
+    font-family: arial;
+}
+h1{
+    text-align: center;
+}
+p{
+line-height: 1.5;
+}
+img{
+max-width: 100%;
+}
+/*utilities*/
+.btn-black{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn-brown{
+display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 .primary-header {
     background-image: url(img/banner.jpg);
     background-position: center center;
@@ -6,3 +56,55 @@
     color: white;
     text-align: center;
 }
+.secondary-header{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+/*main*/
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-container{
+    width: 60%;
+    margin-right: 10px;
+}
+.courses-container{
+    width: 40%;
+}
+
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    background-color: white;
+    padding:30px;
+}
+input,textarea{
+    width: 60%;
+    border:1px solid gray; 
+    padding:5px;
+    border-radius: 5px;
+}
+label{
+    display: inline-black;
+    width: 100px;
+    text-align: left;
+}
+form div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
